@@ -1,0 +1,450 @@
+/* epilogue-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/epilogue-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* epilogue-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/epilogue-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+
+/* header section */
+.main-header {
+    background-color:#fff;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+    left:0;
+    display: inline-block;
+}
+
+.main-header__brand{
+    width: 49px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family:'Epilogue';
+    display: inline-flex;
+}
+
+.main-navigation{
+    display:inline-block;
+    align-items: flex-end;
+}
+
+.main-navigation__items{
+    display: flex;
+    list-style:none;
+    align-items:flex-end;
+    margin-left: 60rem;
+}
+
+.main-navigation li a {
+    display: inline-block;
+    margin-right: 42px;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+   list-style: none;
+   color: black; 
+}
+/* header section */
+
+
+/* main section */
+.main-section {
+    margin-top: 40px;
+    margin-right: -100px;
+    display: flex;
+}
+
+.main-section > div {
+    width: 50%;
+    float: left;
+}
+
+.main-section__branding {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 42px;
+    color: #2d2d2d;
+    font-family: 'Epilogue';
+    vertical-align: middle;
+}
+
+.main-section__name {
+    font-family: 'Epilogue';
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+.main-section__body-text {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2d2d2d;
+}
+
+.main-section__image {
+    text-align: right;
+    margin-right: 10rem;
+}
+
+
+.main-btn {
+    width: 211px;
+    height: 78px;
+    margin: 64px 24px;
+    background-color: #2d2d2d;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-left: 0;
+    font-weight: 600;
+}
+
+/* Partners  section*/
+.partners {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+   
+   }
+   .partner{
+    display: inline-block;
+    padding: 10px;
+   
+   }
+   
+   .partner,.patner__item-2{
+     margin-top: 5px;
+   }
+   
+   
+   .patner__item-3{
+     margin-top: 9px;
+   }
+   
+   .patner__item-4{
+     margin-top: -5px;
+   }
+    .patner__item-5{
+     margin-top: -2px;
+    }
+  
+
+  /* Partners Section */
+
+  /* Skills section */
+  .skills {
+    padding-top: 42px 24px;
+    margin-top: 10rem;
+  }
+
+  .skills-card {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-right: 3%;
+    box-sizing: border-box;
+    margin-bottom: 5rem;
+  }
+
+  .skills-card__title {
+    font-family: 'epilogue';
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 42px;
+    color: #2d2d2d;
+  }
+
+  .skills-card__description {
+    font-family: 'epilogue';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    align-items: center;
+    color: #2d2d2d;
+  }
+
+  .skills-card img {
+    width: 124px;
+    height: 124px;
+  }
+  /* Skills section */
+
+  /* Latest section */
+
+.latest-work-1 {
+  margin-bottom: -2rem;
+  margin-right: 50px;
+  font-family: 'epilogue';
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.latest-cards {
+  width: 1280px;
+  height: 1030px;
+  padding-top: 42px;
+  padding-right: 24px;
+  padding-bottom: 42px;
+  padding-left: 24px;
+  margin-left: 2.3rem;
+ 
+}
+
+.latest-card {
+  display: inline-block;
+  width: 394;
+  height: 419px;
+  min-width: 320px;
+  gap: 24rem;
+  margin-right: 1.2rem;
+}
+
+.latest-subtitle {
+  color: #2d2d2d;
+  font-family: 'epilogue';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.latest-body-text {
+  margin-top: -30px;
+  font-family: 'epilogue';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  gap: 30px;
+  color: #2d2d2d;
+}
+
+.latest-image {
+  width: 394px;
+  height: 330px;
+ 
+ margin-top: 1.5rem;
+}
+
+/* Latest section */
+
+/* Testimonial section */
+
+.testimonial{
+  max-width: 1340px;
+  width: 100%;  
+}
+
+
+.testimonial-title{
+  margin-bottom: 3rem;
+  margin-right: 50px;
+  font-family: 'Epilogue';
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.testimonial-cards{
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin-right: 10px;
+
+ 
+}
+
+.testimonial-card{
+  width: 400px;
+  text-align:center;
+  background-color:#F3F3F3;
+  height: 330px;
+  box-sizing: border-box;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  float: left;
+  flex-direction: column;
+  display: flex;
+}
+.testimonial-card__text{
+  padding-top:42px;
+  font-size:20px;
+  padding-left: 14px;
+  padding-right: 14px;
+  line-height: 30px;
+  width: 310px;
+  height: 90px;
+  font-weight: 600;
+  font-family: 'Epilogue' ;
+  margin-left: 20px;
+  margin-top: -10px;
+  margin-bottom: 30px; 
+  
+
+} 
+.testimonial-item__rate{
+  color:#2D2D2D;
+  margin-top: 5px;
+}
+
+.testimonial-card img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+   float:left;
+   margin-left: 65px;
+   margin-top:10px;
+}
+
+
+.testimonial-cards img{
+  margin-bottom: -3rem;
+  margin-top: 40px;
+  
+}
+
+
+
+.testimonial-card__client-text{
+  display: block;
+  margin-top: -5px;
+  text-align: center;
+  margin-left: -55px;
+
+}
+
+.testimonial-card__client-name{
+    padding-top: -10px;
+    margin-top: 10px;
+}
+/* Testimonial section */
+
+/* Contact section */
+.contact-container{
+  width: 1340px;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 5%;
+  margin: 0 auto;
+}
+  
+
+.contact-title{
+  margin-bottom: 3rem;
+  margin-right: 50px;
+  font-family: 'Epilogue';
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 42px;
+  letter-spacing: 0%;
+  
+  color: #2d2d2d;
+}
+
+.contact-description{
+  width: 570px;
+  height: 81px;
+  font-weight: 400;
+  font-family: 'Epilogue';
+  font-size: 17px;
+  line-height: 27px;
+  color: #2D2D2D;
+}
+
+.social-networks{
+  display: flex;
+  position: absolute;
+  gap: 20px;
+  padding: 10px;
+  list-style: none;
+  align-items: center;
+}
+
+.social-network{
+  position: relative;
+  display:inline-block;
+  width: 36px;
+  height: 36px;
+}
+
+
+/* Form section  */
+
+.form-container {
+  width: 520px;
+  float: right;
+  margin-top: -6rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  background-color: #2e2e2e;
+  margin-top: 20px;
+  color: white;
+  padding-top: 24px;
+  padding-left: 64px;
+  padding-bottom: 24px;
+  padding-right: 64px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30%;
+  font-family:'Epilogue' ;
+  gap: 10px;
+  width: 230px;
+  height: 78px;
+}
+
+/* Form section */
+  
+
